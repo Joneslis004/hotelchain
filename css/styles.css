@@ -378,7 +378,7 @@ nav ul li a:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 nav li.active a {
-  color: #D4AF37;
+  color: #B8860B;
 }
 
 .moveOver #hamburgerBtn::before {
@@ -399,7 +399,7 @@ nav li.active a {
 main h1 {
   padding: 1rem 10px 0.5rem 10px;
   font-size: 1.5rem;
-  color: #D4AF37;
+  color: #B8860B;
   font-weight: 500;
 }
 main p {
@@ -458,7 +458,7 @@ main p {
   line-height: 1.4;
 }
 #besthotels a {
-  color: #D4AF37;
+  color: #B8860B;
   font-weight: 500;
   text-decoration: none;
 }
