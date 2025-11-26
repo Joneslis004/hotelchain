@@ -77,6 +77,7 @@ nav {
     }
     li.active a {
         color: $secondaryColor;
+        font-weight: $normalWeight;
     }
 } // end nav
 
@@ -166,7 +167,7 @@ main {
     }
 
     a {
-        color: $secondaryColor;
+        color: $primaryColor;
         font-weight: 500;
         text-decoration: none;
 
