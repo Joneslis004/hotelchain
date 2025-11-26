@@ -1,0 +1,52 @@
+header, nav, main {
+    max-width: 960px;
+    margin: auto;
+}
+
+/* NAVIGATION STUFF GOES HERE  */
+#hamburgerBtn {
+    display: none;
+}
+.moveOver>.content {
+    transform: translateX(0px);
+}
+nav {
+    background-color: transparent;
+    position: static;
+    transform: translateX(0);
+    width: auto;
+    ul {
+        display: flex;
+        margin-left: $gutter;
+    }// end ul
+    ul li a {
+        padding: .6rem 1.5rem;
+        border: none;
+    }
+}
+
+#navWrapper {
+    background-color: #f7f7f7;
+}
+
+
+
+@media (min-width: 64rem) {
+    #besthotels {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+
+        section {
+            flex-direction: row;
+           
+        grid-template-areas: "photo" " title address phone";
+        column-gap: 8px;
+        }
+    }
+
+    #besthotels img {
+        width: 40%;
+    }
+    
+}

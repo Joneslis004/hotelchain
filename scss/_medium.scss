@@ -1,0 +1,29 @@
+/* NAVIGATION STUFF GOES HERE  */
+
+
+
+
+#besthotels {
+    section {
+        grid-template-areas: "photo title" "address phone";
+        column-gap: 8px;
+    }
+   
+
+} // end best hotels
+
+@media (min-width: 35rem) {
+    #besthotels section {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #besthotels img {
+        width: 40%;
+        height: auto;
+    }
+
+    #besthotels div {
+        width: 60%;
+    }
+}
